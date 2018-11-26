@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+header nav {
+    float: right;    
+}
+
+header nav li {
+    display: inline;
+}
+
+textarea {width: 200px; height: 600px}
+
+.container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
