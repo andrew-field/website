@@ -23,16 +23,22 @@
             </nav>
             <h1>Contact Information.</h1>
         </header>
-        <section>
+        <section id="contactSection">
             <form method="POST">
                 <fieldset>
                     <legend>Submit query</legend>
-                    <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName" /> <br>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" name="lastName" id="lastName" /> <br>
-                    <textarea name="message">Enter your text here.</textarea>
-                    <input type="submit" value="Search" />
+                    <div class="inputArea">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" /><br />
+                    </div>
+                    <div class="inputArea">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" /><br />
+                    </div>
+                    <div class="inputArea">
+                        <textarea id="contactText" name="message">Enter your text here.</textarea><br />
+                    </div>
+                    <input type="submit" value="Send" />
                 </fieldset>
             </form>
         </section>

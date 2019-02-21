@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: darkgreen;
+    background-color: rgb(27, 114, 27);
 }
 
 header nav {
@@ -15,11 +15,23 @@ header nav li {
     display: inline;
 }
 
-textarea {width: 200px; height: 600px}
+#contactText {
+    width: 400px;
+    height: 300px;
+}
+
+#contactSection {
+    margin: 10px 0px;
+}
 
 .container {
     width: 989px;
     margin: 0 auto;
     background-color: white;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inputArea {
+    margin: 10px 0px;
 }
