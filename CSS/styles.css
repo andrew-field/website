@@ -15,13 +15,20 @@ header nav li {
     display: inline;
 }
 
-#contactText {
+#contactSection, #contactSection input {
+    margin: 10px 0px;
+}
+
+#contactSection textarea {
     width: 400px;
     height: 300px;
 }
 
-#contactSection {
-    margin: 10px 0px;
+#contactSection input[type=submit] {
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(27, 114, 27);
 }
 
 .container {
@@ -32,6 +39,3 @@ header nav li {
     padding: 10px;
 }
 
-.inputArea {
-    margin: 10px 0px;
-}
