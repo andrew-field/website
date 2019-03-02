@@ -11,8 +11,8 @@ header nav {
     float: right;    
 }
 
-header nav li {
-    display: inline;
+a {
+    color: rgb(27, 114, 27);
 }
 
 #contactSection, #contactSection input {
